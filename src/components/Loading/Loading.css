@@ -1,0 +1,14 @@
+.loading-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.loading-text {
+  color: green;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}

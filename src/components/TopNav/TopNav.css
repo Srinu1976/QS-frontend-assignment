@@ -1,0 +1,42 @@
+.selectGroup {
+    padding: 3px;
+}
+
+.displayButton {
+    position: relative;
+}
+
+.dropOnClick {
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.dropOnClick > * {
+    width: 100%;
+}
+
+.btn {
+    background-color: #f8f8fa;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 5px 10px;  /* Added padding for better spacing */
+    cursor: pointer;    /* Added cursor to indicate clickability */
+    transition: background-color 0.3s ease;  /* Smooth hover effect */
+}
+
+.btn:hover {
+    background-color: #ececec; /* Subtle hover effect */
+}
+
+.selectStyle {
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2px 5px;
+    border: 1px solid #ccc;  /* Added border for better visual separation */
+    appearance: none;  /* Removes default dropdown styling for better control */
+}

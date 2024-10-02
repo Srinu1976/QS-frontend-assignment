@@ -1,0 +1,23 @@
+:root {
+    --dash-container-background: lavender;
+    --dash-container-gap: 20px;
+    --dash-card-container-width: 300px;
+}
+
+.dashContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--dash-container-gap);
+    flex-wrap: wrap;
+    background: var(--dash-container-background);
+    padding: 5px 10px;
+}
+
+.dashCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: var(--dash-card-container-width);
+}
